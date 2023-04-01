@@ -1,0 +1,59 @@
+/*selectores*/
+/*
+slectores simples
+    selectores elementales
+        Selector Universal -> *
+        selector de tipo o etiqueta -> nombre de la etiqueta
+    selectores de atributo 
+    id-> id del elemento
+    clase -> clase del elemento
+    otros atributos que no son id ni clases
+    [atributo]
+    [atributo=valor]
+    [atributo^=valor]
+    [atributo*=valor]
+    [atributo $=valor]
+    [atributo|=valor]
+selectores compuestos
+    selectores agrupados
+    selectores  combinadores
+    pseudoclases- pseudoelementos
+    
+
+*{
+    background-color: lightcoral;
+}
+h1{
+    background-color: lightcyan;
+}
+p{
+    background-color: lightgreen;
+}
+*/
+#title{
+    background-color: lightgreen;
+}
+.title{
+    background-color: lightsalmon;
+}
+.text{
+    background-color: lightgreen;
+}
+
+ [href]{
+    background-color:mediumorchid;
+ }
+ [href="https://google.com"]{
+    background-color: orange;
+ }
+ [href^=color]{
+    background-color:red ;
+ }
+
+ [href*="modo"]{
+    background-color:green ;
+ }
+ [href $="azul"]{
+    background-color: steelblue;
+ }
+ 
