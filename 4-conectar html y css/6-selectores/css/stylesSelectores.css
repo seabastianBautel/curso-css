@@ -1,0 +1,23 @@
+.text,
+.text-2,
+.text-3,
+.text-4 {
+  background-color: steelblue;
+}
+
+/*div.title2{
+   background-color: teal;
+}
+*/
+.text-2 + h2 {
+  background-color: tomato;
+}
+.text-2 ~ .text span {
+  background-color: azure;
+}
+span {
+  background-color: brown;
+}
+.container >p{
+    background-color:slateblue;
+}

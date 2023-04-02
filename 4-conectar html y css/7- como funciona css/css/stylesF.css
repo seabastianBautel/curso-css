@@ -1,0 +1,43 @@
+/*
+¿como funcina css?
+epecifidad->Establece como de especifico es un selector
+para saber que estilo aplicar.
+el caulculo se realiza con la siguente formula
+etiquetas y pseudoElementos 001
+clases,atributos y pseudoclases 010
+Ids 100
+Estilos en linea 1000
+cascada -> funciona siempre que la especificidad sobre el elemento sea la misma
+herencias -> es la capacidad que tiene algunos elementos de heredar algunas propiedads de sus elementos contenedores(padres,abuelos,ect)
+
+!important gana a todo y no se usa nunca
+simepre utilizar clases
+
+.title{
+    background-color: teal;
+}
+*/
+body{
+    background-color: #333;
+}
+ .title{
+    color:cyan ;
+    font-size: 10px;
+ }
+ .text{
+    color: green;
+ }
+ /*los enlaces no heredan de las propiedades de su padre
+ con inherit forzamos la herencia
+ initial :ignoral la herencia
+ */
+ .link{
+    color: inherit;
+    
+ }
+ .list{
+    color:indianred;
+ }
+ .list-item-extra{
+    color: initial;
+ }

@@ -18,6 +18,13 @@ selectores compuestos
     selectores agrupados
     selectores  combinadores
     pseudoclases- pseudoelementos
+    selectores convinadores
+        selector decendiente
+        selector de hermano siguente + ->selleciona al hermano siguente adyacente
+        selector de hermanos siguientes ~ -> seleciona a todos los hermanos siguentes
+        selector de hijo directo > ->seleciona solo a los hijos
+
+
     
 
 *{
@@ -30,30 +37,30 @@ p{
     background-color: lightgreen;
 }
 */
-#title{
-    background-color: lightgreen;
+#title {
+  background-color: lightgreen;
 }
-.title{
-    background-color: lightsalmon;
+.title {
+  background-color: lightsalmon;
 }
-.text{
-    background-color: lightgreen;
+.text {
+  background-color: lightgreen;
 }
 
- [href]{
-    background-color:mediumorchid;
- }
- [href="https://google.com"]{
-    background-color: orange;
- }
- [href^=color]{
-    background-color:red ;
- }
+[href] {
+  background-color: mediumorchid;
+}
+[href="https://google.com"]
+{
+  background-color: orange;
+}
+[href^="color"] {
+  background-color: red;
+}
 
- [href*="modo"]{
-    background-color:green ;
- }
- [href $="azul"]{
-    background-color: steelblue;
- }
- 
+[href*="modo"] {
+  background-color: green;
+}
+[href$="azul"] {
+  background-color: steelblue;
+}
