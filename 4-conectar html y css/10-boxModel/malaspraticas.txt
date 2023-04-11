@@ -1,0 +1,4 @@
+*{
+    margin:0;
+    padding:0;
+} saca el margen y el padding a todo lo de la pagina deja todo junto no se recomienda utilizar
